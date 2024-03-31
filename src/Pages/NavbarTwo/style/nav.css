@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+.navClass{
+    font-family: 'Inter', sans-serif;
+    margin-top: -20px;
+    align-items: center;
+}
+.nav{
+    font-family: 'Inter', sans-serif;
+}

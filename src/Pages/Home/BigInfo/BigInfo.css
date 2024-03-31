@@ -1,0 +1,8 @@
+.info:hover{
+    text-decoration: underline;
+    color: blueviolet;
+}
+.info{
+    text-decoration: underline;
+    margin-right: 10px;
+}

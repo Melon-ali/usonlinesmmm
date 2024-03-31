@@ -1,0 +1,19 @@
+.footer span:hover{
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+.footer ul li:hover{
+    color: blueviolet;
+}
+
+.footer {
+    /* background-image: url('/public/images/backgrou.jpg'); */
+    background-size: cover; /* Adjust this property according to your needs */
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    background-color: #0D172d;
+    padding: 30px;
+  }
+  
