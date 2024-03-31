@@ -3,6 +3,7 @@ import { Menu, Transition } from '@headlessui/react'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
 import './style/nav.css'
 import { Link } from 'react-router-dom'
+import googleData from '../../../public/googleData'
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
@@ -29,71 +30,21 @@ const NavLinksFive = () => {
       >
         <Menu.Items className="absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
           <div className="py-1 px-10">
-            <Menu.Item>
-              {({ active }) => (
-                <Link
-                  to={`/form`}
-                  className={classNames(
-                    active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
-                    'block px-5 py-2 text-sm'
-                  )}
-                >
-                 Google 5 Star Reviews
-                </Link>
-              )}
-            </Menu.Item>
-            <Menu.Item>
-              {({ active }) => (
-                <Link
-                to={`/imageGallery`}
-                  className={classNames(
-                    active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
-                    'block px-4 py-2 text-sm'
-                  )}
-                >
-                  Google Ads Accounts
-                </Link>
-              )}
-            </Menu.Item>
-            <Menu.Item>
-              {({ active }) => (
-                <Link
-                  to={`/imageSvg`}
-                  className={classNames(
-                    active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
-                    'block px-4 py-2 text-sm'
-                  )}
-                >
-                 Google Maps Reviews
-                </Link>
-              )}
-            </Menu.Item>
-            <Menu.Item>
-              {({ active }) => (
-                <Link
-                  to={`/wordCounter`}
-                  className={classNames(
-                    active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
-                    'block px-4 py-2 text-sm'
-                  )}
-                >
-                  Google Voice Accounts
-                </Link>
-              )}
-            </Menu.Item>
-            <Menu.Item>
-              {({ active }) => (
-                <Link
-                  to={`/urlShortener`}
-                  className={classNames(
-                    active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
-                    'block px-4 py-2 text-sm'
-                  )}
-                >
-                  Google Play Store Reviews
-                </Link>
-              )}
-            </Menu.Item>
+          {googleData.map((product) => (
+              <Menu.Item key={product?.id}>
+                {({ active }) => (
+                  <Link
+                    to={`/products/${product?.title}`}
+                    className={classNames(
+                      active ? "bg-gray-100 text-gray-900" : "text-gray-700",
+                      "block px-5 py-2 text-sm"
+                    )}
+                  >
+                    {product?.title1}
+                  </Link>
+                )}
+              </Menu.Item>
+            ))}
             
           
           </div>
