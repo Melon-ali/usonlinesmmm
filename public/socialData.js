@@ -1,6 +1,27 @@
 const socialData = [
   {
     id: 101,
+    items: [
+      {
+        id: 1,
+        title: '1 Accounts',
+        price: 30.00,
+        price2: 40.00
+      },
+      {
+        id: 2,
+        title: '2 Accounts',
+        price: 60.00,
+        price2: 80.00
+      },
+      {
+        id: 3,
+        title: '5 Accounts',
+        price: 125.00,
+        price2: 200.00
+      },
+      
+    ],
     title: 'buy-usa-facebook-accounts',
     title1: 'Buy Usa Facebook Accounts',
     title2: 'Why to Buy Facebook Accounts?',
@@ -48,6 +69,27 @@ const socialData = [
   },
   {
     id: 2,
+    items: [
+      {
+        id: 1,
+        title: 'Unverified Facebook Ads With BM',
+        price: 100.00,
+        price2: 120.00
+      },
+      {
+        id: 2,
+        title: 'ID verified Facebook Ads  Account',
+        price: 300.00,
+        price2: 250.00
+      },
+      {
+        id: 3,
+        title: '1 Buy Verified Business Manager',
+        price: 550.00,
+        price2: 700.00
+      },
+      
+    ],
     title: 'buy-ads-facebook-accounts',
     title1: 'Buy Ads Facebook Accounts',
     title2:
@@ -97,6 +139,21 @@ const socialData = [
   },
   {
     id: 3,
+    items: [
+      {
+        id: 1,
+        title: 'New Account With 5000 Friends',
+        price: 250.00,
+        price2: 300.00
+      },
+      {
+        id: 2,
+        title: 'Old Account With 5000 Friends',
+        price: 350.00,
+        price2: 400.00
+      },
+      
+    ],
     title: 'buy-usa-facebook-accounts-with-500-friends',
     title1: 'Buy Facebook Accounts With 500 Friends',
     title2: 'How do I increase my Facebook friend count to over 5000?',
@@ -145,6 +202,26 @@ const socialData = [
   },
   {
     id: 4,
+    items: [
+      {
+        id: 1,
+        title: '01 Twitter Accounts',
+        price: 20.00,
+        price2: 30.00
+      },
+      {
+        id: 2,
+        title: '02 Twitter Accounts',
+        price: 40.00,
+        price2: 60.00
+      },
+      {
+        id: 3,
+        title: '05 Twitter Account',
+        price: 100.00,
+        price2: 150.00
+      }
+    ],
     title: 'buy-twitter-accounts',
     title1: 'Buy Twitter Accounts',
     title2: 'Why Do You Must Like Our Old Twitter Accounts?',
@@ -187,6 +264,32 @@ const socialData = [
   },
   {
     id: 5,
+    items: [
+      {
+        id: 1,
+        title: '01 Instagram Accountst',
+        price: 25.00,
+        price2: 30.00
+      },
+      {
+        id: 2,
+        title: '02 Instagram Account',
+        price: 50.00,
+        price2: 60.00
+      },
+      {
+        id: 3,
+        title: '05 Instagram Account',
+        price: 125.00,
+        price2: 150.00
+      },
+      {
+        id: 4,
+        title: '10 Instagram Account',
+        price: 300.00,
+        price2: 250.00
+      },
+    ],
     title: 'buy-instagram-accounts',
     title1: 'Buy Instagram Accounts',
     title2: 'Buy Instagram Account Cheap',
@@ -236,6 +339,27 @@ const socialData = [
   },
   {
     id: 6,
+    items: [
+      {
+        id: 1,
+        title: '1 LinkedIn Accounts',
+        price: 50.00,
+        price2: 35.00
+      },
+      {
+        id: 2,
+        title: '2 LinkedIn Accounts',
+        price: 70.00,
+        price2: 100.00
+      },
+      {
+        id: 3,
+        title: '3 LinkedIn Accounts',
+        price: 175.00,
+        price2: 250.00
+      },
+      
+    ],
     title: 'buy-linkedin-accounts',
     title1: 'Buy Linkedin Accounts',
     title2: 'Can You Buy Old LinkedIn Accounts?',

@@ -1,16 +1,37 @@
 const products = [
   {
     id: 1,
-    value1: "30",
-    value2: "60.00",
-    value3: "125.00",
-    label1: "1 Accounts",
-    label2: "2 Accounts",
-    label3: "3 Accounts",
+    items: [
+      {
+        id: 1,
+        title: '01 Instagram Accounts',
+        price: 25.00,
+        price2: 30.00
+      },
+      {
+        id: 2,
+        title: '02 Instagram Accounts',
+        price: 50.00,
+        price2: 60.00
+      },
+      {
+        id: 3,
+        title: '05 Instagram Accounts',
+        price: 125.00,
+        price2: 150.00
+      },
+      {
+        id: 4,
+        title: '10 Instagram Accounts',
+        price: 300.00,
+        price2: 250.00
+      },
+    ],
     title: 'buy-instagram-accounts',
     title1: 'Buy Instagram Accounts',
     title2: 'Buy Instagram Account Cheap',
     title3: 'Buy Instagram Accounts For Sale',
+    
     title4:
       'Handle Instagram Accounts Carefully. Here Are A Few Possible Consequences To Think About:',
     title5: 'Be Aware Of Terms And Conditions:',
@@ -56,6 +77,26 @@ const products = [
   },
   {
     id: 2,
+    items: [
+      {
+        id: 1,
+        title: '01 Twitter Accounts',
+        price: 20.00,
+        price2: 30.00
+      },
+      {
+        id: 2,
+        title: '02 Twitter Accounts',
+        price: 40.00,
+        price2: 60.00
+      },
+      {
+        id: 3,
+        title: '05 Twitter Account',
+        price: 100.00,
+        price2: 150.00
+      }
+    ],
     title: 'buy-twitter-accounts',
     title1: 'Buy Twitter Accounts',
     title2: 'Why Do You Must Like Our Old Twitter Accounts?',
@@ -98,6 +139,21 @@ const products = [
   },
   {
     id: 3,
+    items: [
+      {
+        id: 1,
+        title: 'New Account With 5000 Friends',
+        price: 250.00,
+        price2: 300.00
+      },
+      {
+        id: 2,
+        title: 'Old Account With 5000 Friends',
+        price: 350.00,
+        price2: 400.00
+      },
+      
+    ],
     title: 'buy-usa-facebook-accounts-with-500-friends',
     title1: 'Buy Facebook Accounts With 500 Friends',
     title2: 'How do I increase my Facebook friend count to over 5000?',
@@ -146,6 +202,27 @@ const products = [
   },
   {
     id: 4,
+    items: [
+      {
+        id: 1,
+        title: '1 Accounts',
+        price: 30.00,
+        price2: 40.00
+      },
+      {
+        id: 2,
+        title: '2 Accounts',
+        price: 60.00,
+        price2: 80.00
+      },
+      {
+        id: 3,
+        title: '5 Accounts',
+        price: 125.00,
+        price2: 200.00
+      },
+      
+    ],
     title: 'buy-usa-facebook-accounts',
     title1: 'Buy Usa Facebook Accounts',
     title2: 'Why to Buy Facebook Accounts?',
@@ -193,6 +270,27 @@ const products = [
   },
   {
     id: 5,
+    items: [
+      {
+        id: 1,
+        title: 'Unverified Facebook Ads With BM',
+        price: 100.00,
+        price2: 120.00
+      },
+      {
+        id: 2,
+        title: 'ID verified Facebook Ads  Account',
+        price: 300.00,
+        price2: 250.00
+      },
+      {
+        id: 3,
+        title: '1 Buy Verified Business Manager',
+        price: 550.00,
+        price2: 700.00
+      },
+      
+    ],
     title: 'buy-ads-facebook-accounts',
     title1: 'Buy Ads Facebook Accounts',
     title2:
@@ -242,6 +340,27 @@ const products = [
   },
   {
     id: 6,
+    items: [
+      {
+        id: 1,
+        title: '1 LinkedIn Accounts',
+        price: 50.00,
+        price2: 35.00
+      },
+      {
+        id: 2,
+        title: '2 LinkedIn Accounts',
+        price: 70.00,
+        price2: 100.00
+      },
+      {
+        id: 3,
+        title: '3 LinkedIn Accounts',
+        price: 175.00,
+        price2: 250.00
+      },
+      
+    ],
     title: 'buy-linkedin-accounts',
     title1: 'Buy Linkedin Accounts',
     title2: 'Can You Buy Old LinkedIn Accounts?',
@@ -291,6 +410,45 @@ const products = [
   },
   {
     id: 7,
+    items: [
+      {
+        id: 1,
+        title: '05 Reviews',
+        price: 25.00,
+        price2: 30.00
+      },
+      {
+        id: 2,
+        title: '10 Reviews',
+        price: 50.00,
+        price2: 60.00
+      },
+      {
+        id: 3,
+        title: '15 Reviews',
+        price: 75.00,
+        price2: 90.00
+      },
+      {
+        id: 4,
+        title: '20 Reviews',
+        price: 100.00,
+        price2: 120.00
+      },
+      {
+        id: 5,
+        title: '50 Reviews',
+        price: 250.00,
+        price2: 300.00
+      },
+      {
+        id: 6,
+        title: '50 Reviews',
+        price: 500.00,
+        price2: 600.00
+      },
+      
+    ],
     title: 'buy-google-5star-reviews',
     title1: 'Buy Google 5 Star Reviews',
     title2: 'Why to Buy Facebook Accounts?',
@@ -303,14 +461,22 @@ const products = [
     cover: '../images/10.jpeg',
     price: '$25.00 – $500.00',
 
-    description1: 'An essential step in growing your small business is purchasing Google reviews. Before making a purchase at a small or large company, 90% of customers check internet reviews. As it turns out, getting advice from Google is probably going to affect 67.7% of purchases. The people behind Come Across Assessments It should be noted that any small business that takes its customers feedback seriously has to lead by example by showcasing insightful reviews. Purchasing Google 5-Star Reviews.On the other hand, youre missing a simple opportunity to boost the credibility of your business if you dont solicit feedback. Instead, in order to find the products and services they need, they will examine what your competitors are offering. Purchasing Google 5-Star Reviews.If your firm has a lot of bad reviews on its Google business page, or even if it has a lot of favorable ones, you might think about purchasing Google 5-star reviews. Customers will find it easier to develop a positive opinion of your company and more beneficial to purchase Google reviews with a high grade if your Google business page has a large number of positive reviews.You have to purchase Google reviews from various countries. Purchase 5-Star Google Reviews.',
-    description2: 'Buying Google 5-star reviews is not a recommended practice and goes against Googles review policies. Here are some reasons why you should not buy Google 5-star reviews:1. Violation of Policies: Buying Google reviews violates Googles policies, which prohibit the posting of fake or misleading reviews. If Google detects that youve purchased reviews, your business may face penalties, including removal of reviews, suspension of your Google My Business listing, or even account termination.2. Lack of Authenticity: Fake reviews lack authenticity and credibility. Customers can often spot fake reviews, which can damage your reputation and erode trust in your business. Genuine, organic reviews from satisfied customers are much more valuable and carry more weight with potential customers.3. Negative Impact on SEO: Fake reviews can negatively impact your search engine optimization (SEO) efforts. Googles algorithm considers factors such as review quality and authenticity when ranking businesses in local search results. Fake reviews can harm your rankings and visibility in search results.Risk of Repercussions: Engaging in deceptive practices like buying reviews can result in negative publicity and damage to your brands reputation. Customers may feel deceived if they discover that your reviews are fake, leading to loss of trust and potential loss of business.',
-    description3: ' Focus on Improving Services: Instead of buying reviews, focus on providing excellent products or services that genuinely deserve positive reviews. Encourage satisfied customers to leave honest feedback about their experiences, and use constructive criticism from negative reviews to identify areas for improvement.6. Long-Term Sustainability: Building a strong reputation and positive online presence takes time and effort. While buying reviews may provide a temporary boost, its not a sustainable or ethical strategy for long-term success. Invest in building genuine relationships with your customers and earning authentic reviews organically.',
-    description4: 'Google reviews can have a significant impact on businesses in several ways:Visibility and Credibility:Google reviews appear prominently in search results and Google Maps listings, providing potential customers with valuable information about a business before they even visit its website. Positive reviews can enhance a businesss visibility and credibility, making it more likely to attract new customers.Trust and Reputation:Positive Google reviews help build trust and establish a positive reputation for a business. Customers are more likely to trust and choose a business with a high rating and positive feedback from previous customers. Conversely, negative reviews can damage a businesss reputation and deter potential customers.SEO Benefits:Google reviews contribute to a businesss search engine optimization (SEO) efforts. The quantity and quality of reviews, as well as the keywords and phrases used in them, can influence a businesss ranking in local search results. Businesses with a high volume of positive reviews are more likely to rank higher in Googles search results.',
-    description5: 'Consumer Insights:Google reviews provide valuable insights into customers experiences and preferences. Businesses can use this feedback to identify areas for improvement, address customer concerns, and tailor their products or services to better meet customer needs.Competitive Advantage:Positive Google reviews can give businesses a competitive advantage over their rivals. Customers are more likely to choose a business with a higher rating and better reviews than its competitors. Businesses with a strong online reputation are better positioned to attract and retain customers in a competitive market.Customer Engagement:Responding to Google reviews demonstrates a businesss commitment to customer satisfaction and engagement. Engaging with reviewers, whether to thank them for positive feedback or address concerns raised in negative reviews, can help foster positive relationships with customers and improve overall customer satisfaction.',
-    description6: 'Online Reviews Have A Big Influence On The Image of Your Company. Favorable evaluations build credibility and trust, influencing the choices of possible clients. They Serve As Endorsements And Help Build A Positive Brand Image, Drawing In More Business. Positive reviews from customers help businesses stand out on search engines, increasing their visibility and competitiveness. Constructively Responding To Negative Reviews Shows A Commitment To Customer Satisfaction And Offers Important Improvement Insights. Positive customer relationships are fostered and transparency is demonstrated when one engages with reviews, whether they are positive or negative. Online reviews are a major factor in determining your reputation and influencing consumer behavior in todays digital world.Your company page will appear more realistic; it will also help you outperform your competitors; draw in more visitors; and increase the rate at which customers engage with you.Google Reviews Increase the Reliability of Google 5 Star Reviews.Purchase Google 5-Star Ratings',
-    description7: 'The key elements of our online store are the purchase of Google 5-Star Reviews. important for dropshipping-based internet enterprises. Taking into account their significance for your internet business. in particular, if drop carriers are employed by you. Purchasing Google 5-Star Reviews.Items are moved by drop transporters to help you. Google reviews with five stars that you may sell to customers on your website or through a vendor at a discount from your inventory. as that is a very clear question. Google is the web marketplaces most incredible application leader. It is Google that you want if you are an online seller, regardless of whether you have a website. Purchasing Google 5-Star Reviews.What is the price of obtaining five-star reviews?Google reviews are now available, and they may play a significant role in your overall marketing strategy for many small firms. If you wish to use Google Reviews into your SEO strategy, you should be aware of the following: Purchase 5-Star Google Reviews.How much does getting five-star reviews cost?There are now Google reviews, and for many small businesses, they may be a crucial component of your total marketing plan. What you need to know if you want to include Google Reviews in your SEO plan is as follows:',
-    description8: 'Should you want to purchase five-star Google reviews for your business. Then you might find our website to be useful. After all, we dont sell fake reviews. We promise to provide you the best possible profile. A review of the lifetime replacement guarantee and non-drop policy. round-the-clock support. Purchase 5-Star Google Reviews.As said before, we have a skilled, dedicated, and experienced crew. They also promise to only offer secure, superior services that satisfy all of your needs. Because of the high level of professionalism in our personnel, you wont have to worry about anything while we work for you. Here you may see some example work to be sure our services are what youre looking for. Furthermore, we provide affordable prices without sacrificing the quality of our work. Purchase 5 Star Google Reviews.Our top priority is making sure you are satisfied.',
+    description1:
+      'An essential step in growing your small business is purchasing Google reviews. Before making a purchase at a small or large company, 90% of customers check internet reviews. As it turns out, getting advice from Google is probably going to affect 67.7% of purchases. The people behind Come Across Assessments It should be noted that any small business that takes its customers feedback seriously has to lead by example by showcasing insightful reviews. Purchasing Google 5-Star Reviews.On the other hand, youre missing a simple opportunity to boost the credibility of your business if you dont solicit feedback. Instead, in order to find the products and services they need, they will examine what your competitors are offering. Purchasing Google 5-Star Reviews.If your firm has a lot of bad reviews on its Google business page, or even if it has a lot of favorable ones, you might think about purchasing Google 5-star reviews. Customers will find it easier to develop a positive opinion of your company and more beneficial to purchase Google reviews with a high grade if your Google business page has a large number of positive reviews.You have to purchase Google reviews from various countries. Purchase 5-Star Google Reviews.',
+    description2:
+      'Buying Google 5-star reviews is not a recommended practice and goes against Googles review policies. Here are some reasons why you should not buy Google 5-star reviews:1. Violation of Policies: Buying Google reviews violates Googles policies, which prohibit the posting of fake or misleading reviews. If Google detects that youve purchased reviews, your business may face penalties, including removal of reviews, suspension of your Google My Business listing, or even account termination.2. Lack of Authenticity: Fake reviews lack authenticity and credibility. Customers can often spot fake reviews, which can damage your reputation and erode trust in your business. Genuine, organic reviews from satisfied customers are much more valuable and carry more weight with potential customers.3. Negative Impact on SEO: Fake reviews can negatively impact your search engine optimization (SEO) efforts. Googles algorithm considers factors such as review quality and authenticity when ranking businesses in local search results. Fake reviews can harm your rankings and visibility in search results.Risk of Repercussions: Engaging in deceptive practices like buying reviews can result in negative publicity and damage to your brands reputation. Customers may feel deceived if they discover that your reviews are fake, leading to loss of trust and potential loss of business.',
+    description3:
+      ' Focus on Improving Services: Instead of buying reviews, focus on providing excellent products or services that genuinely deserve positive reviews. Encourage satisfied customers to leave honest feedback about their experiences, and use constructive criticism from negative reviews to identify areas for improvement.6. Long-Term Sustainability: Building a strong reputation and positive online presence takes time and effort. While buying reviews may provide a temporary boost, its not a sustainable or ethical strategy for long-term success. Invest in building genuine relationships with your customers and earning authentic reviews organically.',
+    description4:
+      'Google reviews can have a significant impact on businesses in several ways:Visibility and Credibility:Google reviews appear prominently in search results and Google Maps listings, providing potential customers with valuable information about a business before they even visit its website. Positive reviews can enhance a businesss visibility and credibility, making it more likely to attract new customers.Trust and Reputation:Positive Google reviews help build trust and establish a positive reputation for a business. Customers are more likely to trust and choose a business with a high rating and positive feedback from previous customers. Conversely, negative reviews can damage a businesss reputation and deter potential customers.SEO Benefits:Google reviews contribute to a businesss search engine optimization (SEO) efforts. The quantity and quality of reviews, as well as the keywords and phrases used in them, can influence a businesss ranking in local search results. Businesses with a high volume of positive reviews are more likely to rank higher in Googles search results.',
+    description5:
+      'Consumer Insights:Google reviews provide valuable insights into customers experiences and preferences. Businesses can use this feedback to identify areas for improvement, address customer concerns, and tailor their products or services to better meet customer needs.Competitive Advantage:Positive Google reviews can give businesses a competitive advantage over their rivals. Customers are more likely to choose a business with a higher rating and better reviews than its competitors. Businesses with a strong online reputation are better positioned to attract and retain customers in a competitive market.Customer Engagement:Responding to Google reviews demonstrates a businesss commitment to customer satisfaction and engagement. Engaging with reviewers, whether to thank them for positive feedback or address concerns raised in negative reviews, can help foster positive relationships with customers and improve overall customer satisfaction.',
+    description6:
+      'Online Reviews Have A Big Influence On The Image of Your Company. Favorable evaluations build credibility and trust, influencing the choices of possible clients. They Serve As Endorsements And Help Build A Positive Brand Image, Drawing In More Business. Positive reviews from customers help businesses stand out on search engines, increasing their visibility and competitiveness. Constructively Responding To Negative Reviews Shows A Commitment To Customer Satisfaction And Offers Important Improvement Insights. Positive customer relationships are fostered and transparency is demonstrated when one engages with reviews, whether they are positive or negative. Online reviews are a major factor in determining your reputation and influencing consumer behavior in todays digital world.Your company page will appear more realistic; it will also help you outperform your competitors; draw in more visitors; and increase the rate at which customers engage with you.Google Reviews Increase the Reliability of Google 5 Star Reviews.Purchase Google 5-Star Ratings',
+    description7:
+      'The key elements of our online store are the purchase of Google 5-Star Reviews. important for dropshipping-based internet enterprises. Taking into account their significance for your internet business. in particular, if drop carriers are employed by you. Purchasing Google 5-Star Reviews.Items are moved by drop transporters to help you. Google reviews with five stars that you may sell to customers on your website or through a vendor at a discount from your inventory. as that is a very clear question. Google is the web marketplaces most incredible application leader. It is Google that you want if you are an online seller, regardless of whether you have a website. Purchasing Google 5-Star Reviews.What is the price of obtaining five-star reviews?Google reviews are now available, and they may play a significant role in your overall marketing strategy for many small firms. If you wish to use Google Reviews into your SEO strategy, you should be aware of the following: Purchase 5-Star Google Reviews.How much does getting five-star reviews cost?There are now Google reviews, and for many small businesses, they may be a crucial component of your total marketing plan. What you need to know if you want to include Google Reviews in your SEO plan is as follows:',
+    description8:
+      'Should you want to purchase five-star Google reviews for your business. Then you might find our website to be useful. After all, we dont sell fake reviews. We promise to provide you the best possible profile. A review of the lifetime replacement guarantee and non-drop policy. round-the-clock support. Purchase 5-Star Google Reviews.As said before, we have a skilled, dedicated, and experienced crew. They also promise to only offer secure, superior services that satisfy all of your needs. Because of the high level of professionalism in our personnel, you wont have to worry about anything while we work for you. Here you may see some example work to be sure our services are what youre looking for. Furthermore, we provide affordable prices without sacrificing the quality of our work. Purchase 5 Star Google Reviews.Our top priority is making sure you are satisfied.',
 
     sort0: '100% money-back guarante',
     sort1: 'USA,UK,CAN,AUS,KHM,COL,DEU other countries Facebook',
@@ -331,6 +497,33 @@ const products = [
   },
   {
     id: 8,
+    items: [
+      {
+        id: 1,
+        title: '10 BackLinks',
+        price: 5.00,
+        price2: 7.00
+      },
+      {
+        id: 2,
+        title: '50 BackLinks',
+        price: 25.00,
+        price2: 35.00
+      },
+      {
+        id: 3,
+        title: '100 BackLinks',
+        price: 50.00,
+        price2: 70.00
+      },
+      {
+        id: 4,
+        title: '100 BackLinks',
+        price: 250.00,
+        price2: 350.00
+      },
+      
+    ],
     title: 'buy-seo-services',
     title1: 'Buy Seo Service',
     title2: 'What is SEO Services?',
@@ -379,6 +572,33 @@ const products = [
   },
   {
     id: 9,
+    items: [
+      {
+        id: 1,
+        title: '05 Google Maps Reviews',
+        price: 25.00,
+        price2: 30.00
+      },
+      {
+        id: 2,
+        title: '10 Google Maps Reviews',
+        price: 50.00,
+        price2: 60.00
+      },
+      {
+        id: 3,
+        title: '20 Google Maps Reviews',
+        price: 100.00,
+        price2: 120.00
+      },
+      {
+        id: 4,
+        title: '50 Google Maps Reviews',
+        price: 250.00,
+        price2: 300.00
+      },
+      
+    ],
     title: 'buy-google-maps-reviews',
     title1: 'Buy Google Maps Reviews',
     title2: 'Can You Buy Google Maps Reviews?',
@@ -423,6 +643,39 @@ const products = [
   },
   {
     id: 10,
+    items: [
+      {
+        id: 1,
+        title: 'Accounts With $300 Balance',
+        price: 100.00,
+        price2: 120.00
+      },
+      {
+        id: 2,
+        title: 'Accounts With $500 Balance',
+        price: 200.00,
+        price2: 250.00
+      },
+      {
+        id: 3,
+        title: 'Accounts With $300 Balance',
+        price: 100.00,
+        price2: 120.00
+      },
+      {
+        id: 4,
+        title: 'Accounts With $900 Balance',
+        price: 360.00,
+        price2: 420.00
+      },
+      {
+        id: 5,
+        title: 'Accounts With $1200 Balance',
+        price: 600.00,
+        price2: 450.00
+      },
+      
+    ],
     title: 'buy-google-ads-accounts',
     title1: 'Buy Google Ads Accounts',
     title2:
@@ -470,6 +723,21 @@ const products = [
   },
   {
     id: 11,
+    items: [
+      {
+        id: 1,
+        title: '01 Software Development',
+        price: 400.00,
+        price2: 500.00
+      },
+      {
+        id: 2,
+        title: '02 Software Development',
+        price: 1000.00,
+        price2: 800.00
+      }
+      
+    ],
     title: 'buy-software-development',
     title1: 'Buy Software Development',
     title2: 'Our Services Given:',
@@ -506,6 +774,15 @@ const products = [
   },
   {
     id: 12,
+    items: [
+      {
+        id: 1,
+        title: '01 Web Design',
+        price: 400.00,
+        price2: 500.00
+      }
+      
+    ],
     title: 'buy-web-design',
     title1: 'Buy Web Design',
     title2: 'What makes a good web design?',
@@ -553,7 +830,29 @@ const products = [
     sort15: ' Booking appointment.',
   },
   {
+
     id: 13,
+    items: [
+      {
+        id: 1,
+        title: '05 Google Voice Accounts',
+        price: 50.00,
+        price2: 60.00
+      },
+      {
+        id: 2,
+        title: '10 Google Voice Accounts',
+        price: 100.00,
+        price2: 120.00
+      },
+      {
+        id: 3,
+        title: '100 Google Voice Accounts',
+        price: 1000.00,
+        price2: 1200.00
+      },
+      
+    ],
     title: 'buy-google-voice-accounts',
     title1: 'Buy Google Voice Accounts',
     title2: 'What are Google Voice Accounts?',
@@ -603,6 +902,27 @@ const products = [
   },
   {
     id: 14,
+    items: [
+      {
+        id: 1,
+        title: 'Buy Verified Binance Accounts',
+        price: 250.00,
+        price2: 300.00
+      },
+      {
+        id: 2,
+        title: 'Buy Verified Binance European Accounts',
+        price: 700.00,
+        price2: 800.00
+      },
+      {
+        id: 3,
+        title: 'Buy Verified Binance USA CA AUS Accounts',
+        price: 900.00,
+        price2: 1000.00
+      },
+      
+    ],
     title: 'buy-verified-binance-accounts',
     title1: 'Buy Verified Binance Accounts',
     title2: 'What are verified Binance accounts?',
@@ -651,6 +971,33 @@ const products = [
   },
   {
     id: 16,
+    items: [
+      {
+        id: 1,
+        title: 'BTC Enabled Verified New Cash App Account with Documents Provided',
+        price: 450.00,
+        price2: 600.00
+      },
+      {
+        id: 2,
+        title: 'BTC Enabled Verified Old Cash App Account with Documents Provided',
+        price: 540.00,
+        price2: 700.00
+      },
+      {
+        id: 3,
+        title: 'None BTC Enabled Verified New Cash App Account with Documents Provided',
+        price: 240.00,
+        price2: 300.00
+      },
+      {
+        id: 4,
+        title: 'None BTC Enabled Verified Old Cash App Account',
+        price: 300.00,
+        price2: 400.00
+      },
+      
+    ],
     title: 'buy-cash-app',
     title1: 'Buy Cash App',
     title2: 'Buy varified cash app accounts ',
@@ -699,6 +1046,33 @@ const products = [
   },
   {
     id: 15,
+    items: [
+      {
+        id: 1,
+        title: 'Buy New Business Paypal Account',
+        price: 180.00,
+        price2: 220.00
+      },
+      {
+        id: 2,
+        title: 'Buy New Personal Paypal Account',
+        price: 130.00,
+        price2: 150.00
+      },
+      {
+        id: 3,
+        title: 'Buy Old Business Paypal Account',
+        price: 1000.00,
+        price2: 1200.00
+      },
+      {
+        id: 4,
+        title: 'Buy New personal Paypal Account',
+        price: 200.00,
+        price2: 230.00
+      },
+      
+    ],
     title: 'buy-verified-paypal-accounts',
     title1: 'Buy Verified Paypal Accounts',
     title2: 'Buy verified PayPal accounts',

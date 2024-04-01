@@ -3,7 +3,7 @@ import welcome from '../../../assets/products/welcome.png';
 
 const Notice = () => {
   return (
-    <div className="my-10">
+    <div className="my-24">
         <div className="card lg:card-side bg-base-100 shadow-xl">
             <figure><img src={welcome} className='w-100' alt="Notice"/></figure>
             <div className="card-body">

@@ -3,3 +3,8 @@
 .navBackground{
     font-family: 'Inter', sans-serif;
 }
+
+.navbar a:hover{
+    color: whitesmoke;
+    background-color: #6D28D9;
+}

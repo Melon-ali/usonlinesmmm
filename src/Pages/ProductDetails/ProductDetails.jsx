@@ -6,6 +6,13 @@ import { RxDotFilled } from "react-icons/rx";
 const ProductDetails = () => {
   const { title } = useParams();
   const [productData, setProductData] = useState({});
+  const [selectedOption, setSelectedOption] = useState(null);
+
+  const selected = productData?.items?.find(
+    (e) => e?.id === parseInt(selectedOption)
+  );
+
+  console.log(`selected option from product details`, selected);
 
   useEffect(() => {
     const product = products.find((product) => product.title === title);
@@ -13,6 +20,10 @@ const ProductDetails = () => {
       setProductData(product);
     }
   }, [title]);
+
+  const handleSelectChange = (event) => {
+    setSelectedOption(event.target.value);
+  };
 
   return (
     <>
@@ -24,14 +35,16 @@ const ProductDetails = () => {
                 <figure>
                   <img
                     className="w-80"
-                    src={productData.cover}
-                    alt={productData.title1}
+                    src={productData?.cover}
+                    alt={productData?.title1}
                   />
                 </figure>
                 <div className="card-body">
-                  <h2 className="card-title">{productData.title1}</h2>
-                  <p className="font-bold text-2xl">{productData.price}</p>
-                  <p className="text-4xl font-bold m-0">{productData.title1}</p>
+                  <h2 className="card-title">{productData?.title1}</h2>
+                  <p className="font-bold text-2xl">{productData?.price}</p>
+                  <p className="text-4xl font-bold m-0">
+                    {productData?.title1}
+                  </p>
                   <div className="card-actions justify-start">
                     <div className="" style={{ marginBottom: "30px" }}>
                       <h3
@@ -124,19 +137,29 @@ const ProductDetails = () => {
                 </p>
 
                 <div className="mt-20">
-                  <select className="select select-primary w-full max-w-xs">
-                    <option disabled selected>
-                      Choose an Options
-                    </option>
-                    <option>1 Accounts</option>
-                    <option>2 Accounts</option>
-                    <option>5 Accounts</option>
-                    <option>10 Accounts</option>
+                  <h2 className="text-2xl mb-2">{productData.title1}</h2>
+                  <select
+                    className="select select-primary w-full max-w-xs"
+                    value={selectedOption}
+                    onChange={handleSelectChange}
+                  >
+                    <option>Choose an option</option>
+                    {productData?.items?.map((e) => (
+                      <option value={e?.id} key={e?.id}>
+                        {e?.title}
+                      </option>
+                    ))}
                   </select>
+                </div>
+                <div className="mt-5 flex justify-center gap-3">
+                  <del className="text-gray-400">
+                    <h2 className="text-3xl ">${selected?.price2}</h2>
+                  </del>
+                  <h2 className="text-3xl">${selected?.price}</h2>
                 </div>
                 <div className="gap-2 flex justify-center mt-10">
                   <div>
-                    <input type="number" className="border-4 p-2 rounded-md"/>
+                    <input type="number" className="border-2 p-2 rounded-md" />
                   </div>
                   <div>
                     <button className="btn btn-primary">Add To Cart</button>
@@ -152,12 +175,12 @@ const ProductDetails = () => {
           <h2 className="text-3xl font-bold py-5">{productData?.title} </h2>
           <p>
             {productData?.description1}
-            <Link className="text-blue-500">{productData.title1}</Link>
+            <Link className="text-blue-500">{productData?.title1}</Link>
           </p>
           <h2 className="text-3xl font-bold py-5">{productData?.title2}</h2>
           <p>
             {productData?.description2}
-            <Link className="text-blue-500">{productData.title1}</Link>
+            <Link className="text-blue-500">{productData?.title1}</Link>
           </p>
           <h2 className="text-3xl font-bold py-5">{productData?.title3}</h2>
           <p>{productData?.description3}</p>

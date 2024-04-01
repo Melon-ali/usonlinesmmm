@@ -1,6 +1,33 @@
 const developmentData = [
   {
     id: 8,
+    items: [
+      {
+        id: 1,
+        title: '10 BackLinks',
+        price: 5.00,
+        price2: 7.00
+      },
+      {
+        id: 2,
+        title: '50 BackLinks',
+        price: 25.00,
+        price2: 35.00
+      },
+      {
+        id: 3,
+        title: '100 BackLinks',
+        price: 50.00,
+        price2: 70.00
+      },
+      {
+        id: 4,
+        title: '100 BackLinks',
+        price: 250.00,
+        price2: 350.00
+      },
+      
+    ],
     title: 'buy-seo-services',
     title1: 'Buy Seo Service',
     title2: 'What is SEO Services?',
@@ -49,6 +76,21 @@ const developmentData = [
   },
   {
     id: 11,
+    items: [
+      {
+        id: 1,
+        title: '01 Software Development',
+        price: 400.00,
+        price2: 500.00
+      },
+      {
+        id: 2,
+        title: '02 Software Development',
+        price: 1000.00,
+        price2: 800.00
+      }
+      
+    ],
     title: 'buy-software-development',
     title1: 'Buy Software Development',
     title2: 'Our Services Given:',
@@ -85,6 +127,15 @@ const developmentData = [
   },
   {
     id: 12,
+    items: [
+      {
+        id: 1,
+        title: '01 Web Design',
+        price: 400.00,
+        price2: 500.00
+      }
+      
+    ],
     title: 'buy-web-design',
     title1: 'Buy Web Design',
     title2: 'What makes a good web design?',
@@ -133,6 +184,33 @@ const developmentData = [
   },
   {
     id: 15,
+    items: [
+      {
+        id: 1,
+        title: 'Buy New Business Paypal Account',
+        price: 180.00,
+        price2: 220.00
+      },
+      {
+        id: 2,
+        title: 'Buy New Personal Paypal Account',
+        price: 130.00,
+        price2: 150.00
+      },
+      {
+        id: 3,
+        title: 'Buy Old Business Paypal Account',
+        price: 1000.00,
+        price2: 1200.00
+      },
+      {
+        id: 4,
+        title: 'Buy New personal Paypal Account',
+        price: 200.00,
+        price2: 230.00
+      },
+      
+    ],
     title: 'buy-verified-paypal-accounts',
     title1: 'Buy Verified Paypal Accounts',
     title2: 'Buy verified PayPal accounts',

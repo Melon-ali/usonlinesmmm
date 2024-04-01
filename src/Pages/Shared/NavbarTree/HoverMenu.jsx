@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import socialData from "../../../../public/socialData";
 import googleData from "../../../../public/googleData";
 import developmentData from "../../../../public/developmentData";
+import "../NavbarTree/style/nav.css";
 
 const HoverMenu = () => {
   return (
@@ -51,25 +52,10 @@ const HoverMenu = () => {
           className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52"
         >
           {socialData.map((product) => (
-            <li key={product?.id}>
+            <li key={product?.title}>
               <Link to={`/products/${product?.title}`}>{product?.title1}</Link>
             </li>
           ))}
-          {/* <li>
-            <Link to='/'>Facebook Ads Accounts</Link>
-          </li>
-          <li>
-            <Link to='/'>Facebook Account with 5000 Friends</Link>
-          </li>
-          <li>
-            <Link to='/'>Twitter Accounts</Link>
-          </li>
-          <li>
-            <Link to='/'>Instagram Accounts</Link>
-          </li>
-          <li>
-            <Link to='/'>LinkedIn Accounts</Link>
-          </li> */}
         </ul>
       </div>
       <div className="dropdown dropdown-hover">
@@ -84,7 +70,6 @@ const HoverMenu = () => {
           tabIndex={0}
           className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52"
         >
-          
           <li>
             <Link to="/">Trustpilot Reviews</Link>
           </li>
@@ -113,7 +98,6 @@ const HoverMenu = () => {
               <Link to={`/products/${product?.title}`}>{product?.title1}</Link>
             </li>
           ))}
-          
         </ul>
       </div>
       <div className="dropdown dropdown-hover">
