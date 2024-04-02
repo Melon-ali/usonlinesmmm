@@ -105,7 +105,7 @@ const ProductDetails = () => {
                 </h2>
                 <h2 className="text-2xl" style={{ color: "mediumspringgreen" }}>
                   Email:{" "}
-                  <Link href="">
+                  <Link to="mailto:usonlinesmm@gmail.com" target="_black">
                     <span style={{ color: "blueviolet" }}>
                       usonlinesmm@gmail.com
                     </span>
@@ -113,19 +113,19 @@ const ProductDetails = () => {
                 </h2>
                 <h2 className="text-2xl" style={{ color: "green" }}>
                   Whats nambar:{" "}
-                  <Link href="">
+                  <Link to='https://wa.link/n3hjji' target="_black">
                     <span style={{ color: "aqua" }}>+1 (240) 466-1831</span>
                   </Link>
                 </h2>
                 <h2 className="text-2xl" style={{ color: "blueviolet" }}>
                   Skype:{" "}
-                  <Link href="">
+                  <Link to="https://join.skype.com/invite/yi3czZYCLwTs" target="_blank">
                     <span style={{ color: "greenyellow" }}>usonlinesmm</span>
                   </Link>
                 </h2>
                 <h2 className="text-2xl" style={{ color: "Highlight" }}>
                   Telegram:{" "}
-                  <Link href="">
+                  <Link to='https://t.me/usonlinesmm' target="_black">
                     <span style={{ color: "mediumspringgreen" }}>
                       @usonlinesmm
                     </span>
@@ -175,12 +175,16 @@ const ProductDetails = () => {
           <h2 className="text-3xl font-bold py-5">{productData?.title} </h2>
           <p>
             {productData?.description1}
-            <Link className="text-blue-500">{productData?.title1}</Link>
+            <Link to="/" className="text-blue-500">
+              {productData?.title1}
+            </Link>
           </p>
           <h2 className="text-3xl font-bold py-5">{productData?.title2}</h2>
           <p>
             {productData?.description2}
-            <Link className="text-blue-500">{productData?.title1}</Link>
+            <Link to="/" className="text-blue-500">
+              {productData?.title1}
+            </Link>
           </p>
           <h2 className="text-3xl font-bold py-5">{productData?.title3}</h2>
           <p>{productData?.description3}</p>

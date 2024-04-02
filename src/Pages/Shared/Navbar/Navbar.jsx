@@ -11,17 +11,17 @@ const Navbar = () => {
             <FaLocationArrow /> 90001, LA, CA, Usa
           </p>
         </Link>
-        <Link className="mb-3 md:mb-0">
+        <Link to='https://wa.link/n3hjji' target="_black" className="mb-3 md:mb-0">
           <p className="flex">
             <FaWhatsappSquare /> Whats App +1 (240) 466-1831
           </p>
         </Link>
-        <Link className="mb-3 md:mb-0">
+        <Link to='https://t.me/usonlinesmm' target="_black" className="mb-3 md:mb-0">
           <p className="flex">
             <FaTelegram /> Telegram: @usonlinesmm
           </p>
         </Link>
-        <Link className="mr-5">
+        <Link className="mr-5" to="https://join.skype.com/invite/yi3czZYCLwTs" target="_black">
           <p className="flex">
             <TiSocialSkype /> Skype: usonlinesmm
           </p>

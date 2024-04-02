@@ -94,7 +94,7 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/">
+                <Link to="https://join.skype.com/invite/yi3czZYCLwTs" target="_black">
                   <TiSocialSkype size={25} />
                 </Link>
               </li>
@@ -104,16 +104,16 @@ const Footer = () => {
           <h3 className="text-3xl font-bold">24-HOUR REPLY/CONTACT.</h3>
           <ul className="text-2xl">
             <li>
-              <Link href="/">Email: <span className="text-blue-600">usonlinesmm@gmail.com</span></Link>
+              <Link to="mailto:usonlinesmm@gmail.com" target="_black">Email: <span className="text-blue-600">usonlinesmm@gmail.com</span></Link>
             </li>
             <li>
-              <Link href="/">Skype: <span className="text-rose-500"> usonlinesmm </span></Link>
+              <Link to="https://join.skype.com/invite/yi3czZYCLwTs" target="_black">Skype: <span className="text-rose-500"> usonlinesmm </span></Link>
             </li>
             <li>
-              <Link href="/">Telegram: <span className="text-teal-400">@usonlinesmm</span></Link>
+              <Link to='https://t.me/usonlinesmm' target="_black">Telegram: <span className="text-teal-400">@usonlinesmm</span></Link>
             </li>
             <li>
-              <Link href="/"> Whats nambar : +1 (240) 466-1831</Link>
+              <Link to='https://wa.link/n3hjji' target="_black"> Whats nambar : +1 (240) 466-1831</Link>
             </li>
           </ul>
         </ul>
