@@ -380,7 +380,7 @@ const googleData = [
       },
       
     ],
-    title: 'buy-cash-app',
+    title: 'buy-cash-app-accounts',
     title1: 'Buy Cash App Accounts',
     title2: 'Buy varified cash app accounts ',
     title3: 'What Is Verified Cash App Account?',
@@ -390,7 +390,7 @@ const googleData = [
     title7: 'What Are The Advantages Of Buying Verified Cash App Accounts?',
     title8: 'How to make money by Cash App?',
     cover: '../images/16.jpeg',
-    price: '$35.00 – $350.00',
+    price: '$200.00 – $750.00',
 
     description1:
       "Unlock a worldwide of seamless financial transactions with our showed Cash App accounts. With agree with and reliability as our cornerstone, we offer meticulously confirmed money owed, making sure your peace of thoughts in each transaction. Seamlessly included with the Cash App platform, our money owed assure problem-free cash transfers, bill bills, and investments. Say good-bye to uncertainties and embody consolation with our verified Cash App bills. Experience the liberty of on the spot transfers and steady transactions, subsidized by way of manner of our dedication to excellence. Join infinite happy customers who've made us their trusted partner in economic empowerment. Welcome to a smoother, more secure, and greater efficient way to manipulate your coins.",
@@ -439,7 +439,7 @@ const googleData = [
     title7: 'How To Choose The Best PayPal Accounts',
     title8: 'Buy 100%  Verified PayPal Accounts Cheap In Usonlinesmm It',
     cover: '../images/15.jpeg',
-    price: '$30.00 – $300.00',
+    price: '$130.00 – $380.00',
 
     description1:
       'In this digital age, on line transactions have come to be increasingly popular for their convenience and performance. Among these numerous platforms, PayPal is one of the most trusted and extensively used online charge methods.However, finding a Verified PayPal account can from time to time be difficult, particularly for folks that stay in countries wherein PayPal is restricted. In such instances, buying a Verified PayPal account can be a feasible option to get the advantages and offerings that PayPal offers.PayPal is a manner for people and groups to apply steady online transaction services, receive bills and access various economic offerings with the aid of purchasing a Verified PayPal account. By shopping a proven account, users can avoid the trouble of going via the verification method themselves, that may regularly be time-consuming and irritating.Additionally, having a verified PayPal account can help customers establish consider and credibility with capacity buyers or customers, in the long run increasing their on-line presence and increasing their enterprise opportunities.',
