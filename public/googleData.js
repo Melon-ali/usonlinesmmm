@@ -292,6 +292,27 @@ const googleData = [
   },
   {
     id: 14,
+    items: [
+      {
+        id: 1,
+        title: 'Buy Verified Binance Accounts',
+        price: 250.00,
+        price2: 300.00
+      },
+      {
+        id: 2,
+        title: 'Buy Verified Binance European Accounts',
+        price: 700.00,
+        price2: 800.00
+      },
+      {
+        id: 3,
+        title: 'Buy Verified Binance USA CA AUS Accounts',
+        price: 900.00,
+        price2: 1000.00
+      },
+      
+    ],
     title: "buy-verified-binance-accounts",
     title1: "Buy Verified Binance Accounts",
     title2: "What are verified Binance accounts?",
@@ -302,7 +323,7 @@ const googleData = [
     title7: "Buy 100%  Verified Binance Accounts In Usonlinesmm It ",
     title8: "Frequently asked questions about verified Binance accounts",
     cover: "../images/14.jpeg",
-    price: "$25.00 – $350.00",
+    price: "$250.00 – $900.00",
 
     description1: "With the developing popularity of cryptocurrencies, structures like Binance have turn out to be an crucial tool for purchasing, promoting and seeking out and promoting virtual belongings. Creating a Binance account can occasionally be a tedious manner, requiring customers to verify their identification and adhere to strict safety abilities.A verified Binance account enables us float in advance. We can buy showed Binance account from valid sellers to keep our time and effort. In this newsletter, we are going to discover the arena of purchasing examined Binance debts, what they may be, why they may be beneficial, and the manner to shop for a verified Binance account. We'll discover the benefits of the usage of a verified account, which encompass right now get proper of entry to to platform competencies and advanced safety abilities. In addition, we are capable of offer hints on the manner to pick out out out out a depended on enterprise and make sure that the purchase meets all of the requirements and necessities of the account. We will try and discover the whole thing you want to recognize approximately seeking out a hard and speedy up Binance account and you'll be a part of us to find out approximately it.",
     description2: "Verified Binance money owed are money owed that have been showed and authenticated via manner of using the Binance platform. These payments go through a rigorous verification gadget to ensure the identity and legitimacy of the account holder.By having a tough and fast up Binance account, clients get get entry to to a big shape of talents and offerings supplied with the useful resource of using the platform. Such as better financial transactions, stronger protection abilties and the possibility to participate in new gives and promotions. With a examined Binance account, clients can with a chunk of right fortune trade a whole lot of cryptocurrencies due to the reality their account is confirmed and robust. This verification machine permits guard each the character and the platform from functionality fraudulent interest and enhances the general looking for and promoting enjoy.Having a fixed up Binance account permits customers to take advantage of greater advantages, which embody quicker customer support responses, time and precedence get right of get entry to to to new abilties and updates. This can be in particular useful for individuals who are actively purchasing for and selling on this platform and want to live abreast of the cutting-edge-day-day tendencies and updates inside the cryptocurrency marketplace.Overall, having a confirmed Binance account gives customers peace of thoughts, statistics that their account is showed and guarded through way of the use of the usage of the usage of the platform. This is an crucial step to maximize their attempting to find and selling revel in on Binance and make sure the protection in their belongings.",
