@@ -10,7 +10,7 @@ const History = () => {
         </div>
         <div className="md:order-2">
           <p className="text-2xl">
-            <Link to="/usonlineesmm" className="text-blue-500">
+            <Link to="" className="text-blue-500">
               <span>Usonlineesmm</span>
             </Link>{" "}
             is a digital service provider agency based in the United States

@@ -86,8 +86,8 @@ const developmentData = [
       {
         id: 2,
         title: '02 Software Development',
-        price: 1000.00,
-        price2: 800.00
+        price: 800.00,
+        price2: 1000.00
       }
       
     ],
@@ -131,8 +131,8 @@ const developmentData = [
       {
         id: 1,
         title: '01 Web Design',
-        price: 400.00,
-        price2: 500.00
+        price: 850.00,
+        price2: 1000.00
       }
       
     ],
@@ -146,7 +146,7 @@ const developmentData = [
     title7: 'How do I choose the ideal web designer for my company?',
     title8: 'How much does it cost to hire a web designer?',
     cover: 'https://i.ibb.co/yWcHKn4/01.jpg',
-    price: '$200.00 – $850.00',
+    price: '$850.00',
 
     description1:
       "Whether you are starting a new business or need to repair your outdated website, our Business Website Package will help you establish a unique, professional online presence. With your input, the experts at Deluxe will create a one-of-a-kind website for your business. Together, you will decide what features, widgets, and tools to add to make the most out of it and allow users to interact with it on your website. Choose from either our five- or ten-page websites.You'd rather have something more distinctive. Our custom website package is designed for businesses who have specific needs when it comes to the appearance and feel of their website. A first-rate team will help you create a one-of-a-kind, results-driven website from the ground up. Invest in web design.",
@@ -222,7 +222,7 @@ const developmentData = [
     title7: 'How To Choose The Best PayPal Accounts',
     title8: 'Buy 100%  Verified PayPal Accounts Cheap In Usonlinesmm It',
     cover: '../images/15.jpeg',
-    price: '$130.00 – $380.00',
+    price: '$130.00 – $1000.00',
 
     description1:
       'In this digital age, on line transactions have come to be increasingly popular for their convenience and performance. Among these numerous platforms, PayPal is one of the most trusted and extensively used online charge methods.However, finding a Verified PayPal account can from time to time be difficult, particularly for folks that stay in countries wherein PayPal is restricted. In such instances, buying a Verified PayPal account can be a feasible option to get the advantages and offerings that PayPal offers.PayPal is a manner for people and groups to apply steady online transaction services, receive bills and access various economic offerings with the aid of purchasing a Verified PayPal account. By shopping a proven account, users can avoid the trouble of going via the verification method themselves, that may regularly be time-consuming and irritating.Additionally, having a verified PayPal account can help customers establish consider and credibility with capacity buyers or customers, in the long run increasing their on-line presence and increasing their enterprise opportunities.',

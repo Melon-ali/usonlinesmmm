@@ -175,14 +175,14 @@ const ProductDetails = () => {
           <h2 className="text-3xl font-bold py-5">{productData?.title} </h2>
           <p>
             {productData?.description1}
-            <Link to="/" className="text-blue-500">
+            <Link to="" className="text-blue-500">
               {productData?.title1}
             </Link>
           </p>
           <h2 className="text-3xl font-bold py-5">{productData?.title2}</h2>
           <p>
             {productData?.description2}
-            <Link to="/" className="text-blue-500">
+            <Link to="" className="text-blue-500">
               {productData?.title1}
             </Link>
           </p>

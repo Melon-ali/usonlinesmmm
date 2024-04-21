@@ -4,6 +4,7 @@ import socialData from "../../../../public/socialData";
 import googleData from "../../../../public/googleData";
 import developmentData from "../../../../public/developmentData";
 import "../NavbarTree/style/nav.css";
+import emailData from "../../../../public/emailData";
 
 const HoverMenu = () => {
   return (
@@ -25,18 +26,11 @@ const HoverMenu = () => {
           tabIndex={0}
           className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52"
         >
-          <li>
-            <Link to="/">Gmail Accounts</Link>
-          </li>
-          <li>
-            <Link to="/">Hotmail Accounts</Link>
-          </li>
-          <li>
-            <Link to="/">Yahoo Accounts</Link>
-          </li>
-          <li>
-            <Link to="/">Business Email Accounts</Link>
-          </li>
+          {emailData.map((product) => (
+            <li key={product?.title}>
+              <Link to={`/products/${product?.title}`}>{product?.title1}</Link>
+            </li>
+          ))}
         </ul>
       </div>
       <div className="dropdown dropdown-hover">
@@ -70,7 +64,7 @@ const HoverMenu = () => {
           tabIndex={0}
           className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52"
         >
-          <li>
+          {/* <li>
             <Link to="/">Trustpilot Reviews</Link>
           </li>
           <li>
@@ -78,7 +72,7 @@ const HoverMenu = () => {
           </li>
           <li>
             <Link to="/">Sitejabber Reviews</Link>
-          </li>
+          </li> */}
         </ul>
       </div>
       <div className="dropdown dropdown-hover">

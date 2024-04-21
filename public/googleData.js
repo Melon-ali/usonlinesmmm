@@ -262,7 +262,7 @@ const googleData = [
     title7: "Is the Google Voice for Cash app usable?",
     title8: "Conclusion",
     cover: "../images/13.jpeg",
-    price: "$25.00 – $250.00",
+    price: "$30.00 – $1000.00",
 
     description1: "Google Voice is a communications service that it invented and generates money from. It provides users with a virtual phone number. Calling, texting, and voicemail options are also available. Customers may use any internet-connected device, such a computer, tablet, or smartphone, to make and receive phone calls using a Google Voice number. Get in contact with usasmmclub.com to purchase Google Voice accounts at a discounted rate. The service allows users to text voicemails, filter incoming calls, and make calls to other numbers. Purchase accounts on Google Voice.Google Voice number offers additional features like call recording, video conferencing, and the ability to block annoying calls from your account. Users may record unique messages for different kinds of callers and customize their voicemail greetings. Before using Google Voice in the USA and other countries, you have to have a Google account. The service is totally free to use and is accessible in both the US and Canada, while there can be costs for other services, international calls, and necessary documentation. You may purchase Google Voice accounts and utilize them for a number of purposes. Purchase Google Voice accounts",
     description2: "Google Voice is a telecommunications service provided by Google that offers call forwarding, voicemail services, and voice and text messaging capabilities. Here are some key features and aspects of Google Voice accounts:1. Phone Number: With Google Voice, users can obtain a new phone number or port their existing number to the service. This number can be used to make and receive calls and texts through the Google Voice platform.5. Integration with Gmail: Google Voice integrates with Gmail, allowing users to make and receive calls directly from their Gmail interface using their Google Voice number. Spam Filtering: Google Voice includes spam filtering features to help identify and block unwanted calls and messages.Customization Options: Users can customize their Google Voice settings, including call forwarding rules, voicemail greetings, and notification preferences.",
@@ -357,14 +357,14 @@ const googleData = [
       {
         id: 1,
         title: 'BTC Enabled Verified New Cash App Account with Documents Provided',
-        price: 450.00,
+        price: 500.00,
         price2: 600.00
       },
       {
         id: 2,
         title: 'BTC Enabled Verified Old Cash App Account with Documents Provided',
-        price: 540.00,
-        price2: 700.00
+        price: 750.00,
+        price2: 900.00
       },
       {
         id: 3,
@@ -380,9 +380,9 @@ const googleData = [
       },
       
     ],
-    title: 'buy-cash-app-accounts',
-    title1: 'Buy Cash App Accounts',
-    title2: 'Buy varified cash app accounts ',
+    title: 'buy-verified-cash-app-accounts',
+    title1: 'Buy verified Cash App Accounts',
+    title2: 'Buy verified cash app accounts ',
     title3: 'What Is Verified Cash App Account?',
     title4: 'Why Buy Verify Cash App Account',
     title5: 'How To Buy Verified Cash App Accounts',
@@ -439,7 +439,7 @@ const googleData = [
     title7: 'How To Choose The Best PayPal Accounts',
     title8: 'Buy 100%  Verified PayPal Accounts Cheap In Usonlinesmm It',
     cover: '../images/15.jpeg',
-    price: '$130.00 – $380.00',
+    price: '$130.00 – $1000.00',
 
     description1:
       'In this digital age, on line transactions have come to be increasingly popular for their convenience and performance. Among these numerous platforms, PayPal is one of the most trusted and extensively used online charge methods.However, finding a Verified PayPal account can from time to time be difficult, particularly for folks that stay in countries wherein PayPal is restricted. In such instances, buying a Verified PayPal account can be a feasible option to get the advantages and offerings that PayPal offers.PayPal is a manner for people and groups to apply steady online transaction services, receive bills and access various economic offerings with the aid of purchasing a Verified PayPal account. By shopping a proven account, users can avoid the trouble of going via the verification method themselves, that may regularly be time-consuming and irritating.Additionally, having a verified PayPal account can help customers establish consider and credibility with capacity buyers or customers, in the long run increasing their on-line presence and increasing their enterprise opportunities.',
