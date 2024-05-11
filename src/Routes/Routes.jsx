@@ -22,23 +22,6 @@ const router = createBrowserRouter([
         path: "/products/:title",
         element: <ProductDetails />,
       },
-
-      // {
-      //     path: "/buy-usa-facebook-acount",
-      //     element: <UsaFacebookAcount />
-      // },
-      // {
-      //     path: "/paddhosuchis",
-      //     element: <Paddhosuchis></Paddhosuchis>
-      // },
-      // {
-      //     path: "/mojibs",
-      //     element: <MojibHome></MojibHome>
-      // },
-      // {
-      //     path: "/allTeachers",
-      //     element: <Teachers></Teachers>
-      // },
     ],
   },
 ]);
